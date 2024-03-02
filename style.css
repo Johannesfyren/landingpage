@@ -6,9 +6,7 @@
 body{
     width: 100vw;
 }
-.herocontent{
-    background-color: blue;
-}
+
 
 .contentpaddingwrapper{
     padding-right: 5em;
@@ -37,3 +35,42 @@ nav h1{
     color: #F9faf8;
     font-weight: 700;
 }
+/* Hero section elements */
+
+.herocontent{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 100px;
+}
+.herocontent h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9faf8;
+}
+.herocontent p{
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.leftheropart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftheropart button{
+    flex: 0;
+    align-self: self-start;
+    background-color: #3882f6;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    border-style: none;
+    color: #F9faf8;
+    font-weight: 700;
+}
+
+
+
+
