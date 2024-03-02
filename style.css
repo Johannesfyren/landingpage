@@ -4,8 +4,36 @@
     margin: 0;
 }
 body{
-    width: 90vw;
+    width: 100vw;
 }
 .herocontent{
     background-color: blue;
+}
+
+.contentpaddingwrapper{
+    padding-right: 5em;
+    padding-left: 5em;
+} 
+nav, footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+footer{
+    justify-content: center;
+    color: #e5e7eb;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+nav h1{
+    font-size: 24px;
+    color: #F9faf8;
+    font-weight: 700;
 }
