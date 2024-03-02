@@ -9,8 +9,8 @@ body{
 
 
 .contentpaddingwrapper{
-    padding-right: 5em;
-    padding-left: 5em;
+    padding-right: 15%;
+    padding-left: 15%;
 } 
 .maincontentpaddingvertical{
     padding-top: 100px;
@@ -106,3 +106,24 @@ nav h1{
 .kittyimagesection img{
      border-radius: 20px;
 }
+
+/* quotesection */
+
+.quotesection{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    gap: 20px;
+}
+.quotesection span{
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+.quotesection p{
+    font-size: 18px;
+    font-weight: bold;
+    align-self: self-end;
+}
+
