@@ -53,7 +53,7 @@ nav h1{
 }
 .herocontent h1{
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bolder;
     color: #F9faf8;
 }
 .herocontent p{
@@ -83,6 +83,14 @@ nav h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
+}
+
+.seconddiv h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+
 }
 .seconddiv img{
     object-fit: cover;
@@ -93,5 +101,8 @@ nav h1{
 .kittyimagesection{
     display: flex;
     gap: 50px;
-    
+    text-align: center;
+}
+.kittyimagesection img{
+     border-radius: 20px;
 }
