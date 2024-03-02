@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 90vw;
+}
+.herocontent{
+    background-color: blue;
+}
