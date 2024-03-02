@@ -127,3 +127,34 @@ nav h1{
     align-self: self-end;
 }
 
+/* ctasection */
+
+.ctasection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ctacontentcontainer{
+    border-radius: 10px;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #F9faf8;
+}
+
+.ctacontentcontainer p{
+    color: #e5e7eb;
+}
+
+.ctacontentcontainer button{
+    padding: 10px 25px;
+    color: #F9faf8;
+    background-color: transparent;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #F9faf8;
+    border-radius: 5px;
+}
