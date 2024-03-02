@@ -12,12 +12,19 @@ body{
     padding-right: 5em;
     padding-left: 5em;
 } 
+.maincontentpaddingvertical{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 nav, footer{
+    padding: 0;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    
 }
 footer{
     justify-content: center;
@@ -42,7 +49,7 @@ nav h1{
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    padding-top: 100px;
+    
 }
 .herocontent h1{
     font-size: 48px;
@@ -71,6 +78,20 @@ nav h1{
     font-weight: 700;
 }
 
+/* seconddiv section */
+.seconddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seconddiv img{
+    object-fit: cover;
+    width: 200px;
+    height:200px;
+}
 
-
-
+.kittyimagesection{
+    display: flex;
+    gap: 50px;
+    
+}
